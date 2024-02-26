@@ -165,20 +165,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.motorola.frameworks.core.addon",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/com.motorola.frameworks.core.addon.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.motorola.motosignature",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/com.motorola.motosignature.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "com.qti.dpmframework",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
@@ -189,27 +175,6 @@ dex_import {
 	name: "dpmapi",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "moto-checkin",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/moto-checkin.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "moto-settings",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/moto-settings.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "moto",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/moto.jar"],
 	system_ext_specific: true,
 }
 
